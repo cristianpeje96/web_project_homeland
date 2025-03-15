@@ -4,7 +4,7 @@
   text-align: center;
   margin: auto;
 }
-.header__content_title {
+.header__content-title {
   max-width: 720px;
   max-height: 200px;
   top: 194px;
@@ -16,7 +16,7 @@
   text-align: center;
   justify-content: center;
 }
-.header__content_subtitle {
+.header__content-subtitle {
   font-family: "Inter";
   font-weight: 400;
   max-width: 720px;
@@ -29,7 +29,7 @@
   line-height: 36px;
   text-align: center;
 }
-.header__content_img {
+.header__content-img {
   max-width: 984px;
   max-height: 615px;
   object-fit: contain;
@@ -40,17 +40,17 @@
     width: 100%;
   }
 
-  .header__content_title {
+  .header__content-title {
     max-width: 530px;
     font-size: 75px;
     line-height: 79px;
   }
 
-  .header__content_description {
+  .header__content-description {
     font-size: 30px;
   }
 
-  .header__content_img {
+  .header__content-img {
     width: 100%;
     margin-top: 64px;
   }
@@ -61,14 +61,14 @@
     width: 100%;
   }
 
-  .header__content_title {
+  .header__content-title {
     max-width: 228px;
     font-size: 40px;
     line-height: 44px;
     margin-top: 50px;
   }
 
-  .header__content_description {
+  .header__content-description {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
@@ -76,7 +76,7 @@
     margin-bottom: 35px;
   }
 
-  .header__content_img {
+  .header__content-img {
     width: 100%;
   }
 }
