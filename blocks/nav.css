@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav__logo {
+  margin: 0 auto;
+  padding-top: 34px;
+}
+
+.nav__title {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__logo {
+    max-width: 254px;
+  }
+  .nav__title {
+    max-width: 254px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav__logo {
+    max-width: 188px;
+  }
+  .nav__title {
+    max-width: 188px;
+  }
+}
