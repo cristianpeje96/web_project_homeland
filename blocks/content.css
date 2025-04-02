@@ -1,6 +1,10 @@
 .content__section {
+  display: flex;
+  flex-direction: column;
   max-width: 830px;
-  margin: 92px auto;
+  margin: 0 auto;
+  padding-bottom: 118px;
+  padding-right: 154px;
 }
 
 .content__section_title {
@@ -35,7 +39,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main__section {
+  .content__section {
     margin: 90px 24px 0 24px;
   }
 
